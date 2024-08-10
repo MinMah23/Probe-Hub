@@ -1,0 +1,49 @@
+{
+  "types": [
+    {
+      "name": "Entity",
+      "parameters": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "id"
+        }
+      ]
+    },
+    {
+      "name": "Method",
+      "parameters": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "unique": true
+        },
+        {
+            "name": "fullName",
+            "type": "string",
+            "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "fullName"
+        }
+      ]
+    }
+  ]
+}

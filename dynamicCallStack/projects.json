@@ -1,0 +1,87 @@
+[
+    {
+        "name": "spring-petclinic",
+        "base_package": "org.springframework.samples.petclinic",
+        "source_basedir": "applications/spring-petclinic/source/",
+        "analysis_results_basedir": "applications/spring-petclinic/results/",
+        "github": "https://github.com/spring-projects/spring-petclinic"
+    },
+    {
+        "name": "spring-petclinic1.1",
+        "base_package": "org.springframework.samples.petclinic",
+        "source_basedir": "petclinic/spring-petclinic-main/src/main/java",
+        "analysis_results_basedir": "applications/spring-petclinic1.1/results/",
+        "github": ""
+    },
+    {
+        "name": "spring-petclinic1.2",
+        "base_package": "org.springframework.samples.petclinic",
+        "source_basedir": "petclinic/spring-petclinic-main/src/main/java",
+        "analysis_results_basedir": "applications/spring-petclinic1.2/results/",
+        "github": ""
+    },
+    {
+        "name": "spring-petclinic-my-vet-service",
+        "source_basedir": "petclinic/spring-petclinic-vet-service/src/main/java",
+        "analysis_results_basedir": "applications/spring-petclinic-my-vet-service/results/",
+        "github": ""
+    },
+    {
+        "name": "jpetstore",
+        "base_package": "org.mybatis.jpetstore",
+        "source_basedir": "JPetStore/jpetstore-6-master/src/main/java",
+        "analysis_results_basedir": "applications/jpetstore/results/",
+        "github": "https://github.com/mybatis/jpetstore-6"
+    },
+    {
+        "name": "jpetstore1.1",
+        "base_package": "org.mybatis.jpetstore",
+        "source_basedir": "JPetStore-migrationProcess/JpetStore1.1/jpetstore-6/src/main/java",
+        "analysis_results_basedir": "applications/jpetstore1.1/results/",
+        "github": "https://github.com/mybatis/jpetstore-6"
+    },
+    {
+        "name": "jpetstore1.2",
+        "base_package": "org.mybatis.jpetstore",
+        "source_basedir": "JPetStore-migrationProcess/JpetStore1.1/jpetstore-6/src/main/java",
+        "analysis_results_basedir": "applications/jpetstore1.2/results/",
+        "github": "https://github.com/mybatis/jpetstore-6"
+    },
+    {
+        "name": "jpetstore1.3",
+        "base_package": "org.mybatis.jpetstore",
+        "source_basedir": "JPetStore-migrationProcess/JpetStore1.1/jpetstore-6/src/main/java",
+        "analysis_results_basedir": "applications/jpetstore1.3/results/",
+        "github": "https://github.com/mybatis/jpetstore-6"
+    },
+    {
+        "name": "springblog",
+        "source_basedir": "applications/springblog/source/",
+        "analysis_results_basedir": "applications/springblog/results/",
+        "github": "https://github.com/Raysmond/SpringBlog"
+    },
+    {
+        "name": "cargo-tracking",
+        "source_basedir": "applications/cargo-tracking/source/",
+        "analysis_results_basedir": "applications/cargo-tracking/results/",
+        "github": "https://github.com/citerus/dddsample-core"
+    },
+    {
+        "name": "spring-petclinic-customers-service",
+        "source_basedir": "spring-petclinic-microservices-main/spring-petclinic-customers-service/src/main/java",
+        "analysis_results_basedir": "applications/spring-petclinic-customers-service/results/",
+        "github": "https://github.com/spring-projects/spring-petclinic"
+    },
+    {
+        "name": "spring-petclinic-vets-service",
+        "source_basedir": "spring-petclinic-microservices-main/spring-petclinic-vets-service/src/main/java",
+        "analysis_results_basedir": "applications/spring-petclinic-vets-service/results/",
+        "github": "https://github.com/spring-projects/spring-petclinic"
+    },
+    {
+        "name": "spring-petclinic-visits-service",
+        "source_basedir": "spring-petclinic-microservices-main/spring-petclinic-visits-service/src/main/java",
+        "analysis_results_basedir": "applications/spring-petclinic-visits-service/results/",
+        "github": "https://github.com/spring-projects/spring-petclinic"
+    }
+]

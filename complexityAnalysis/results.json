@@ -1,0 +1,270 @@
+{
+    "nodes": [
+        {
+            "shortName": "PetClinicApplication.java",
+            "fullName": "src.main.java.org.springframework.samples.petclinic.PetClinicApplication.java",
+            "type": "Class"
+        },
+        {
+            "id": "src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:35:UseUtilityClass:This utility class has a non-private constructor",
+            "type": "Issue",
+            "description": "This utility class has a non-private constructor"
+        },
+        {
+            "shortName": "Person.java",
+            "fullName": "src.main.java.org.springframework.samples.petclinic.model.Person.java",
+            "type": "Class"
+        },
+        {
+            "id": "src/main/java/org/springframework/samples/petclinic/model/Person.java:28:DataClass:The class 'Person' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)",
+            "type": "Issue",
+            "description": "The class 'Person' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)"
+        },
+        {
+            "shortName": "Owner.java",
+            "fullName": "src.main.java.org.springframework.samples.petclinic.owner.Owner.java",
+            "type": "Class"
+        },
+        {
+            "id": "src/main/java/org/springframework/samples/petclinic/owner/Owner.java:65:ImmutableField:Field 'pets' may be declared final",
+            "type": "Issue",
+            "description": "Field 'pets' may be declared final"
+        },
+        {
+            "type": "Method",
+            "fullName": "src.main.java.org.springframework.samples.petclinic.owner.Owner.java.getPet"
+        },
+        {
+            "id": "src/main/java/org/springframework/samples/petclinic/owner/Owner.java:137:CollapsibleIfStatements:This if statement could be combined with its parent",
+            "type": "Issue",
+            "description": "This if statement could be combined with its parent"
+        },
+        {
+            "shortName": "Pet.java",
+            "fullName": "src.main.java.org.springframework.samples.petclinic.owner.Pet.java",
+            "type": "Class"
+        },
+        {
+            "id": "src/main/java/org/springframework/samples/petclinic/owner/Pet.java:45:DataClass:The class 'Pet' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=6)",
+            "type": "Issue",
+            "description": "The class 'Pet' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=6)"
+        },
+        {
+            "id": "src/main/java/org/springframework/samples/petclinic/owner/Pet.java:58:ImmutableField:Field 'visits' may be declared final",
+            "type": "Issue",
+            "description": "Field 'visits' may be declared final"
+        },
+        {
+            "shortName": "Visit.java",
+            "fullName": "src.main.java.org.springframework.samples.petclinic.owner.Visit.java",
+            "type": "Class"
+        },
+        {
+            "id": "src/main/java/org/springframework/samples/petclinic/owner/Visit.java:36:DataClass:The class 'Visit' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)",
+            "type": "Issue",
+            "description": "The class 'Visit' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)"
+        },
+        {
+            "type": "Method",
+            "fullName": "src.main.java.org.springframework.samples.petclinic.system.CrashController.java.RuntimeException"
+        },
+        {
+            "id": "src/main/java/org/springframework/samples/petclinic/system/CrashController.java:33:AvoidThrowingRawExceptionTypes:Avoid throwing raw exception types.",
+            "type": "Issue",
+            "description": "Avoid throwing raw exception types."
+        },
+        {
+            "shortName": "MySqlIntegrationTests.java",
+            "fullName": "src.test.java.org.springframework.samples.petclinic.MySqlIntegrationTests.java",
+            "type": "Class"
+        },
+        {
+            "id": "src/test/java/org/springframework/samples/petclinic/MySqlIntegrationTests.java:49:MutableStaticState:Do not use non-final non-private static fields",
+            "type": "Issue",
+            "description": "Do not use non-final non-private static fields"
+        },
+        {
+            "shortName": "MysqlTestApplication.java",
+            "fullName": "src.test.java.org.springframework.samples.petclinic.MysqlTestApplication.java",
+            "type": "Class"
+        },
+        {
+            "id": "src/test/java/org/springframework/samples/petclinic/MysqlTestApplication.java:33:UseUtilityClass:This utility class has a non-private constructor",
+            "type": "Issue",
+            "description": "This utility class has a non-private constructor"
+        },
+        {
+            "shortName": "OwnerControllerTests.java",
+            "fullName": "src.test.java.org.springframework.samples.petclinic.owner.OwnerControllerTests.java",
+            "type": "Class"
+        },
+        {
+            "id": "src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java:17:ExcessiveImports:A high number of imports can indicate a high degree of coupling within an object.",
+            "type": "Issue",
+            "description": "A high number of imports can indicate a high degree of coupling within an object."
+        },
+        {
+            "id": "src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java:60:TooManyMethods:This class has too many methods, consider refactoring it.",
+            "type": "Issue",
+            "description": "This class has too many methods, consider refactoring it."
+        }
+    ],
+    "edges": [
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.main.java.org.springframework.samples.petclinic.PetClinicApplication.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:35:UseUtilityClass:This utility class has a non-private constructor"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.main.java.org.springframework.samples.petclinic.model.Person.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/main/java/org/springframework/samples/petclinic/model/Person.java:28:DataClass:The class 'Person' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.main.java.org.springframework.samples.petclinic.owner.Owner.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/main/java/org/springframework/samples/petclinic/owner/Owner.java:65:ImmutableField:Field 'pets' may be declared final"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Method",
+                "propertyValue": "src.main.java.org.springframework.samples.petclinic.owner.Owner.java.getPet"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/main/java/org/springframework/samples/petclinic/owner/Owner.java:137:CollapsibleIfStatements:This if statement could be combined with its parent"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.main.java.org.springframework.samples.petclinic.owner.Pet.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/main/java/org/springframework/samples/petclinic/owner/Pet.java:45:DataClass:The class 'Pet' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=6)"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.main.java.org.springframework.samples.petclinic.owner.Pet.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/main/java/org/springframework/samples/petclinic/owner/Pet.java:58:ImmutableField:Field 'visits' may be declared final"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.main.java.org.springframework.samples.petclinic.owner.Visit.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/main/java/org/springframework/samples/petclinic/owner/Visit.java:36:DataClass:The class 'Visit' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Method",
+                "propertyValue": "src.main.java.org.springframework.samples.petclinic.system.CrashController.java.RuntimeException"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/main/java/org/springframework/samples/petclinic/system/CrashController.java:33:AvoidThrowingRawExceptionTypes:Avoid throwing raw exception types."
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.test.java.org.springframework.samples.petclinic.MySqlIntegrationTests.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/test/java/org/springframework/samples/petclinic/MySqlIntegrationTests.java:49:MutableStaticState:Do not use non-final non-private static fields"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.test.java.org.springframework.samples.petclinic.MysqlTestApplication.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/test/java/org/springframework/samples/petclinic/MysqlTestApplication.java:33:UseUtilityClass:This utility class has a non-private constructor"
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.test.java.org.springframework.samples.petclinic.owner.OwnerControllerTests.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java:17:ExcessiveImports:A high number of imports can indicate a high degree of coupling within an object."
+            }
+        },
+        {
+            "relationName": "HASISSUE",
+            "from": {
+                "propertyName": "fullName",
+                "nodeType": "Class",
+                "propertyValue": "src.test.java.org.springframework.samples.petclinic.owner.OwnerControllerTests.java"
+            },
+            "to": {
+                "propertyName": "id",
+                "nodeType": "Issue",
+                "propertyValue": "src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java:60:TooManyMethods:This class has too many methods, consider refactoring it."
+            }
+        }
+    ]
+}

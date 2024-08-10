@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree type="Call Tree" threadSelection="All thread groups" threadStatus="Runnable" aggregationLevel="Methods">
+  <node leaf="false" class="_jprofiler_annotation_class" methodName="HTTP: /jpetstore/actions/Catalog.action" methodSignature="()V" time="602268" count="0" selfTime="0" lineNumber="1" percent="31.8">
+    <node leaf="false" class="org.apache.tomcat.util.threads.TaskThread$WrappingRunnable" methodName="run" methodSignature="()V" time="602268" count="0" selfTime="0" lineNumber="-1" percent="31.8">
+      <node leaf="false" class="net.sourceforge.stripes.controller.StripesFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="602268" count="0" selfTime="0" lineNumber="-1" percent="31.8">
+        <node leaf="false" class="org.apache.catalina.core.ApplicationFilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="596404" count="0" selfTime="0" lineNumber="-1" percent="31.5">
+          <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="service" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="596404" count="0" selfTime="0" lineNumber="-1" percent="31.5">
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="executeResolution" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Lnet/sourceforge/stripes/action/Resolution;)V" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="executeResolution" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Lnet/sourceforge/stripes/action/Resolution;)V" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.HttpCacheInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$7" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                              <node leaf="false" class="net.sourceforge.stripes.action.ForwardResolution" methodName="execute" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="485981" count="0" selfTime="0" lineNumber="-1" percent="25.6">
+                                <node leaf="false" class="org.apache.catalina.core.ApplicationDispatcher" methodName="forward" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="485981" count="0" selfTime="365800" lineNumber="-1" percent="25.6">
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Product_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/catalog/Product.jsp" time="52407" count="0" selfTime="0" lineNumber="-1" percent="2.8">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Product_jsp" methodName="_jspx_meth_c_005fforEach_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Product.jsp" time="32516" count="0" selfTime="25912" lineNumber="-1" percent="1.7">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.LinkTag" methodName="doEndTag" methodSignature="()I" time="6604" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.LinkTagSupport" methodName="buildUrl" methodSignature="()Ljava/lang/String;" time="6604" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.LinkTagSupport" methodName="getPreferredBaseUrl" methodSignature="()Ljava/lang/String;" time="6604" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.StripesTagSupport" methodName="getActionBeanUrl" methodSignature="(Ljava/lang/Object;)Ljava/lang/String;" time="6604" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.controller.NameBasedActionResolver" methodName="getUrlBinding" methodSignature="(Ljava/lang/Class;)Ljava/lang/String;" time="6604" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="false" class="net.sourceforge.stripes.controller.AnnotatedClassActionResolver" methodName="getUrlBinding" methodSignature="(Ljava/lang/Class;)Ljava/lang/String;" time="6604" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                  <node leaf="true" class="net.sourceforge.stripes.controller.UrlBinding" methodName="toString" methodSignature="()Ljava/lang/String;" time="6604" count="0" selfTime="6604" lineNumber="-1" percent="0.3"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Product_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Product.jsp" time="6819" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="6819" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6819" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeFieldsPresentHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6819" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getFieldsPresentValue" methodSignature="()Ljava/lang/String;" time="6819" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6819" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="hmac" methodSignature="(Ljavax/crypto/SecretKey;[BII[BI)V" time="6819" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                  <node leaf="true" class="javax.crypto.Mac" methodName="init" methodSignature="(Ljava/security/Key;)V" time="6819" count="0" selfTime="6819" lineNumber="-1" percent="0.4"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="true" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Product_jsp" methodName="_jspx_meth_stripes_005flink_005f9" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Product.jsp" time="6756" count="0" selfTime="6756" lineNumber="-1" percent="0.4"/>
+                                    <node leaf="true" class="org.apache.jasper.runtime.JspFactoryImpl" methodName="releasePageContext" methodSignature="(Ljavax/servlet/jsp/PageContext;)V" time="6316" count="0" selfTime="6316" lineNumber="-1" percent="0.3"/>
+                                  </node>
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Category_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/catalog/Category.jsp" time="39370" count="0" selfTime="0" lineNumber="-1" percent="2.1">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Category_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Category.jsp" time="12710" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="doEndTag" methodSignature="()I" time="6590" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.InputButtonSupportTag" methodName="doEndInputTag" methodSignature="()I" time="6590" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getLocalizedFieldName" methodSignature="()Ljava/lang/String;" time="6590" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getLocalizedFieldName" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6590" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.localization.LocalizationUtility" methodName="getLocalizedFieldName" methodSignature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Locale;)Ljava/lang/String;" time="6590" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="true" class="java.util.ResourceBundle" methodName="getString" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6590" count="0" selfTime="6590" lineNumber="-1" percent="0.3"/>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="6120" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6120" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeSourcePageHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6120" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getSourcePageValue" methodSignature="()Ljava/lang/String;" time="6120" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6120" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="hmac" methodSignature="(Ljavax/crypto/SecretKey;[BII[BI)V" time="6120" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                  <node leaf="true" class="javax.crypto.Mac" methodName="init" methodSignature="(Ljava/security/Key;)V" time="6120" count="0" selfTime="6120" lineNumber="-1" percent="0.3"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="true" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Category_jsp" methodName="_jspx_meth_c_005fif_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Category.jsp" time="6884" count="0" selfTime="6884" lineNumber="-1" percent="0.4"/>
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Category_jsp" methodName="_jspx_meth_stripes_005flink_005f6" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Category.jsp" time="6858" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.LinkTag" methodName="doEndTag" methodSignature="()I" time="6858" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.LinkTagSupport" methodName="buildUrl" methodSignature="()Ljava/lang/String;" time="6858" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.LinkTagSupport" methodName="getPreferredBaseUrl" methodSignature="()Ljava/lang/String;" time="6858" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.StripesTagSupport" methodName="getActionBeanUrl" methodSignature="(Ljava/lang/Object;)Ljava/lang/String;" time="6858" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="false" class="net.sourceforge.stripes.tag.StripesTagSupport" methodName="getActionBeanType" methodSignature="(Ljava/lang/Object;)Ljava/lang/Class;" time="6858" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.ReflectUtil" methodName="findClass" methodSignature="(Ljava/lang/String;)Ljava/lang/Class;" time="6858" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                  <node leaf="true" class="org.apache.catalina.loader.WebappClassLoaderBase" methodName="loadClass" methodSignature="(Ljava/lang/String;)Ljava/lang/Class;" time="6858" count="0" selfTime="6858" lineNumber="-1" percent="0.4"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="true" class="org.apache.jasper.runtime.JspFactoryImpl" methodName="releasePageContext" methodSignature="(Ljavax/servlet/jsp/PageContext;)V" time="6815" count="0" selfTime="6815" lineNumber="-1" percent="0.4"/>
+                                    <node leaf="true" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Category_jsp" methodName="_jspx_meth_stripes_005flink_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Category.jsp" time="6103" count="0" selfTime="6103" lineNumber="-1" percent="0.3"/>
+                                  </node>
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Item_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/catalog/Item.jsp" time="14966" count="0" selfTime="0" lineNumber="-1" percent="0.8">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Item_jsp" methodName="_jspx_meth_stripes_005flink_005f7" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Item.jsp" time="9002" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.LinkTag" methodName="doEndTag" methodSignature="()I" time="9002" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.LinkTagSupport" methodName="buildUrl" methodSignature="()Ljava/lang/String;" time="9002" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                          <node leaf="false" class="net.sourceforge.stripes.util.UrlBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="9002" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                            <node leaf="false" class="net.sourceforge.stripes.util.UrlBuilder" methodName="build" methodSignature="()Ljava/lang/String;" time="9002" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                              <node leaf="true" class="java.util.ArrayList" methodName="addAll" methodSignature="(Ljava/util/Collection;)Z" time="9002" count="0" selfTime="9002" lineNumber="-1" percent="0.5"/>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Item_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Item.jsp" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeSourcePageHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getSourcePageValue" methodSignature="()Ljava/lang/String;" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="hmac" methodSignature="(Ljavax/crypto/SecretKey;[BII[BI)V" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                  <node leaf="true" class="javax.crypto.Mac" methodName="getInstance" methodSignature="(Ljava/lang/String;)Ljavax/crypto/Mac;" time="5964" count="0" selfTime="5964" lineNumber="-1" percent="0.3"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.SearchProducts_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/catalog/SearchProducts.jsp" time="7881" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.SearchProducts_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/SearchProducts.jsp" time="7881" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="7881" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="7881" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeFieldsPresentHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="7881" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getFieldsPresentValue" methodSignature="()Ljava/lang/String;" time="7881" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="7881" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="getCipher" methodSignature="(Ljavax/crypto/SecretKey;I[BII)Ljavax/crypto/Cipher;" time="7881" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                  <node leaf="true" class="javax.crypto.Cipher" methodName="init" methodSignature="(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V" time="7881" count="0" selfTime="7881" lineNumber="-1" percent="0.4"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Main_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/catalog/Main.jsp" time="5557" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.catalog.Main_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/catalog/Main.jsp" time="5557" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="5557" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="5557" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeSourcePageHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="5557" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getSourcePageValue" methodSignature="()Ljava/lang/String;" time="5557" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="5557" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="generateInitializationVector" methodSignature="()[B" time="5557" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                  <node leaf="true" class="java.security.SecureRandom" methodName="nextBytes" methodSignature="([B)V" time="5557" count="0" selfTime="5557" lineNumber="-1" percent="0.3"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="invokeEventHandler" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="91934" count="0" selfTime="0" lineNumber="-1" percent="4.9">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="invokeEventHandler" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="91934" count="0" selfTime="0" lineNumber="-1" percent="4.9">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="91934" count="0" selfTime="0" lineNumber="-1" percent="4.9">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="91934" count="0" selfTime="0" lineNumber="-1" percent="4.9">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="91934" count="0" selfTime="0" lineNumber="-1" percent="4.9">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="91934" count="0" selfTime="0" lineNumber="-1" percent="4.9">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$6" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="91934" count="0" selfTime="0" lineNumber="-1" percent="4.9">
+                          <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="91934" count="0" selfTime="0" lineNumber="-1" percent="4.9">
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.CatalogActionBean" methodName="viewProduct" methodSignature="()Lnet/sourceforge/stripes/action/ForwardResolution;" time="52046" count="0" selfTime="0" lineNumber="-1" percent="2.7">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.CatalogService" methodName="getItemListByProduct" methodSignature="(Ljava/lang/String;)Ljava/util/List;" time="33961" count="0" selfTime="0" lineNumber="-1" percent="1.8">
+                                <node leaf="false" class="jdk.proxy3.$Proxy20" methodName="getItemListByProduct" methodSignature="(Ljava/lang/String;)Ljava/util/List;" originalClass="org.mybatis.jpetstore.mapper.ItemMapper" time="33961" count="0" selfTime="0" lineNumber="-1" percent="1.8">
+                                  <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="33961" count="0" selfTime="0" lineNumber="-1" percent="1.8">
+                                    <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectList" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List;" time="33961" count="0" selfTime="0" lineNumber="-1" percent="1.8">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="33961" count="0" selfTime="0" lineNumber="-1" percent="1.8">
+                                        <node leaf="true" class="org.apache.ibatis.session.defaults.DefaultSqlSession" methodName="commit" methodSignature="(Z)V" time="21011" count="0" selfTime="21011" lineNumber="-1" percent="1.1"/>
+                                        <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="12950" count="0" selfTime="12950" lineNumber="-1" percent="0.7"/>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node leaf="false" class="org.mybatis.jpetstore.service.CatalogService" methodName="getProduct" methodSignature="(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Product;" time="18085" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                <node leaf="false" class="jdk.proxy3.$Proxy21" methodName="getProduct" methodSignature="(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Product;" originalClass="org.mybatis.jpetstore.mapper.ProductMapper" time="18085" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                  <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="18085" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                    <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectOne" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" time="18085" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="18085" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                        <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="18085" count="0" selfTime="18085" lineNumber="-1" percent="1.0"/>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.CatalogActionBean" methodName="searchProducts" methodSignature="()Lnet/sourceforge/stripes/action/ForwardResolution;" time="20998" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.CatalogService" methodName="searchProductList" methodSignature="(Ljava/lang/String;)Ljava/util/List;" time="20998" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                <node leaf="false" class="jdk.proxy3.$Proxy21" methodName="searchProductList" methodSignature="(Ljava/lang/String;)Ljava/util/List;" originalClass="org.mybatis.jpetstore.mapper.ProductMapper" time="20998" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                  <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="20998" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                    <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectList" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List;" time="20998" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="20998" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                        <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="20998" count="0" selfTime="20998" lineNumber="-1" percent="1.1"/>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.CatalogActionBean" methodName="viewItem" methodSignature="()Lnet/sourceforge/stripes/action/ForwardResolution;" time="12441" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.CatalogService" methodName="getItem" methodSignature="(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Item;" time="12441" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                <node leaf="false" class="jdk.proxy3.$Proxy20" methodName="getItem" methodSignature="(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Item;" originalClass="org.mybatis.jpetstore.mapper.ItemMapper" time="12441" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                  <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="12441" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                    <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectOne" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" time="12441" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="12441" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                        <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="12441" count="0" selfTime="12441" lineNumber="-1" percent="0.7"/>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.CatalogActionBean" methodName="viewCategory" methodSignature="()Lnet/sourceforge/stripes/action/ForwardResolution;" time="6449" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.CatalogService" methodName="getProductListByCategory" methodSignature="(Ljava/lang/String;)Ljava/util/List;" time="6449" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="false" class="jdk.proxy3.$Proxy21" methodName="getProductListByCategory" methodSignature="(Ljava/lang/String;)Ljava/util/List;" originalClass="org.mybatis.jpetstore.mapper.ProductMapper" time="6449" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                  <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6449" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectList" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List;" time="6449" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6449" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="6449" count="0" selfTime="6449" lineNumber="-1" percent="0.3"/>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.util.HttpUtil" methodName="getRequestedPath" methodSignature="(Ljavax/servlet/http/HttpServletRequest;)Ljava/lang/String;" time="6789" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+              <node leaf="true" class="javax.servlet.ServletRequestWrapper" methodName="getAttribute" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="6789" count="0" selfTime="6789" lineNumber="-1" percent="0.4"/>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="requestInit" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="6445" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+              <node leaf="false" class="net.sourceforge.stripes.config.DefaultConfiguration" methodName="getInterceptors" methodSignature="(Lnet/sourceforge/stripes/controller/LifecycleStage;)Ljava/util/Collection;" time="6445" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                <node leaf="true" class="java.util.HashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="6445" count="0" selfTime="6445" lineNumber="-1" percent="0.3"/>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="doBindingAndValidation" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="doBindingAndValidation" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Z)Lnet/sourceforge/stripes/action/Resolution;" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$3" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="bind" methodSignature="(Lnet/sourceforge/stripes/action/ActionBean;Lnet/sourceforge/stripes/action/ActionBeanContext;Z)Lnet/sourceforge/stripes/validation/ValidationErrors;" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                            <node leaf="false" class="net.sourceforge.stripes.util.bean.PropertyExpressionEvaluation" methodName="&lt;init&gt;" methodSignature="(Lnet/sourceforge/stripes/util/bean/PropertyExpression;Ljava/lang/Object;)V" time="5255" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                              <node leaf="true" class="net.sourceforge.stripes.util.bean.PropertyExpressionEvaluation" methodName="validateTypeInformation" methodSignature="()V" time="5255" count="0" selfTime="5255" lineNumber="-1" percent="0.3"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node leaf="true" class="java.lang.ThreadLocal" methodName="set" methodSignature="(Ljava/lang/Object;)V" time="5864" count="0" selfTime="5864" lineNumber="-1" percent="0.3"/>
+      </node>
+    </node>
+  </node>
+  <node leaf="false" class="_jprofiler_annotation_class" methodName="HTTP: /jpetstore/actions/Order.action" methodSignature="()V" time="595557" count="0" selfTime="0" lineNumber="1" percent="31.4">
+    <node leaf="false" class="org.apache.tomcat.util.threads.TaskThread$WrappingRunnable" methodName="run" methodSignature="()V" time="595557" count="0" selfTime="0" lineNumber="-1" percent="31.4">
+      <node leaf="false" class="net.sourceforge.stripes.controller.StripesFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="595557" count="0" selfTime="0" lineNumber="-1" percent="31.4">
+        <node leaf="false" class="org.apache.catalina.core.ApplicationFilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="582552" count="0" selfTime="0" lineNumber="-1" percent="30.7">
+          <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="service" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="582552" count="0" selfTime="0" lineNumber="-1" percent="30.7">
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="executeResolution" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Lnet/sourceforge/stripes/action/Resolution;)V" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="executeResolution" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Lnet/sourceforge/stripes/action/Resolution;)V" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.HttpCacheInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$7" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                              <node leaf="false" class="net.sourceforge.stripes.action.ForwardResolution" methodName="execute" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="480465" count="0" selfTime="0" lineNumber="-1" percent="25.4">
+                                <node leaf="false" class="org.apache.catalina.core.ApplicationDispatcher" methodName="forward" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="480465" count="0" selfTime="426430" lineNumber="-1" percent="25.4">
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.ViewOrder_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/order/ViewOrder.jsp" time="21266" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.ViewOrder_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/order/ViewOrder.jsp" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="doEndTag" methodSignature="()I" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.InputTextTag" methodName="doEndInputTag" methodSignature="()I" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getSingleOverrideValue" methodSignature="()Ljava/lang/Object;" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getOverrideValueOrValues" methodSignature="()Ljava/lang/Object;" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="false" class="net.sourceforge.stripes.tag.BeanFirstPopulationStrategy" methodName="getValue" methodSignature="(Lnet/sourceforge/stripes/tag/InputTagSupport;)Ljava/lang/Object;" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.bean.BeanUtil" methodName="getPropertyValue" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                  <node leaf="false" class="net.sourceforge.stripes.util.bean.PropertyExpressionEvaluation" methodName="getValue" methodSignature="()Ljava/lang/Object;" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                    <node leaf="false" class="net.sourceforge.stripes.util.bean.JavaBeanPropertyAccessor" methodName="getValue" methodSignature="(Lnet/sourceforge/stripes/util/bean/NodeEvaluation;Ljava/lang/Object;)Ljava/lang/Object;" time="7336" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                      <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="7336" count="0" selfTime="7336" lineNumber="-1" percent="0.4"/>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.ViewOrder_jsp" methodName="_jspx_meth_c_005fif_005f3" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/order/ViewOrder.jsp" time="7182" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.LinkTag" methodName="doEndTag" methodSignature="()I" time="7182" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.LinkTagSupport" methodName="buildUrl" methodSignature="()Ljava/lang/String;" time="7182" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.util.UrlBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="7182" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.util.UrlBuilder" methodName="build" methodSignature="()Ljava/lang/String;" time="7182" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="7182" count="0" selfTime="7182" lineNumber="-1" percent="0.4"/>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="true" class="org.apache.jsp.WEB_002dINF.jsp.order.ViewOrder_jsp" methodName="_jspx_meth_c_005fif_005f1" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/order/ViewOrder.jsp" time="6748" count="0" selfTime="6748" lineNumber="-1" percent="0.4"/>
+                                  </node>
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.NewOrderForm_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/order/NewOrderForm.jsp" time="19590" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.NewOrderForm_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/order/NewOrderForm.jsp" time="6649" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="6649" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6649" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeFieldsPresentHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6649" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getFieldsPresentValue" methodSignature="()Ljava/lang/String;" time="6649" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6649" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.Base64" methodName="encodeBytes" methodSignature="([BI)Ljava/lang/String;" time="6649" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                  <node leaf="true" class="net.sourceforge.stripes.util.Base64" methodName="encodeBytes" methodSignature="([BIII)Ljava/lang/String;" time="6649" count="0" selfTime="6649" lineNumber="-1" percent="0.4"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.NewOrderForm_jsp" methodName="_jspx_meth_stripes_005fform_005f1" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/order/NewOrderForm.jsp" time="6607" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="6607" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6607" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeSourcePageHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6607" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getSourcePageValue" methodSignature="()Ljava/lang/String;" time="6607" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6607" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="generateInitializationVector" methodSignature="()[B" time="6607" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                  <node leaf="true" class="java.security.SecureRandom" methodName="nextBytes" methodSignature="([B)V" time="6607" count="0" selfTime="6607" lineNumber="-1" percent="0.3"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.NewOrderForm_jsp" methodName="_jspx_meth_c_005fif_005f3" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/order/NewOrderForm.jsp" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.LinkTag" methodName="doEndTag" methodSignature="()I" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.LinkTagSupport" methodName="buildUrl" methodSignature="()Ljava/lang/String;" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.util.UrlBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.util.UrlBuilder" methodName="build" methodSignature="()Ljava/lang/String;" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.UrlBuilder" methodName="format" methodSignature="(Ljava/lang/Object;)Ljava/lang/String;" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.UrlBuilder" methodName="getFormatter" methodSignature="(Ljava/lang/Object;)Lnet/sourceforge/stripes/format/Formatter;" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                  <node leaf="false" class="net.sourceforge.stripes.format.DefaultFormatterFactory" methodName="getFormatter" methodSignature="(Ljava/lang/Class;Ljava/util/Locale;Ljava/lang/String;Ljava/lang/String;)Lnet/sourceforge/stripes/format/Formatter;" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                    <node leaf="false" class="net.sourceforge.stripes.format.DefaultFormatterFactory" methodName="getInstance" methodSignature="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;)Lnet/sourceforge/stripes/format/Formatter;" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                      <node leaf="false" class="net.sourceforge.stripes.controller.DefaultObjectFactory" methodName="newInstance" methodSignature="(Ljava/lang/Class;)Ljava/lang/Object;" time="6334" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                        <node leaf="true" class="java.lang.Class" methodName="newInstance" methodSignature="()Ljava/lang/Object;" time="6334" count="0" selfTime="6334" lineNumber="-1" percent="0.3"/>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.ConfirmOrder_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/order/ConfirmOrder.jsp" time="13179" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.order.ConfirmOrder_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/order/ConfirmOrder.jsp" time="6695" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="6695" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6695" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeSourcePageHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="6695" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getSourcePageValue" methodSignature="()Ljava/lang/String;" time="6695" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6695" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="generateInitializationVector" methodSignature="()[B" time="6695" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                  <node leaf="true" class="java.security.SecureRandom" methodName="nextBytes" methodSignature="([B)V" time="6695" count="0" selfTime="6695" lineNumber="-1" percent="0.4"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="true" class="org.apache.jsp.WEB_002dINF.jsp.order.ConfirmOrder_jsp" methodName="_jspx_meth_fmt_005fformatDate_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/order/ConfirmOrder.jsp" time="6484" count="0" selfTime="6484" lineNumber="-1" percent="0.3"/>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="invokeEventHandler" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="77788" count="0" selfTime="0" lineNumber="-1" percent="4.1">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="invokeEventHandler" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="77788" count="0" selfTime="0" lineNumber="-1" percent="4.1">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="77788" count="0" selfTime="0" lineNumber="-1" percent="4.1">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="77788" count="0" selfTime="0" lineNumber="-1" percent="4.1">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="77788" count="0" selfTime="0" lineNumber="-1" percent="4.1">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="77788" count="0" selfTime="0" lineNumber="-1" percent="4.1">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$6" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="77788" count="0" selfTime="0" lineNumber="-1" percent="4.1">
+                          <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="77788" count="0" selfTime="0" lineNumber="-1" percent="4.1">
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.OrderActionBean" methodName="newOrder" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="44485" count="0" selfTime="0" lineNumber="-1" percent="2.3">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="insertOrder" methodSignature="(Lorg/mybatis/jpetstore/domain/Order;)V" time="44485" count="0" selfTime="7106" lineNumber="-1" percent="2.3">
+                                <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="insertOrder" methodSignature="(Lorg/mybatis/jpetstore/domain/Order;)V" time="37379" count="0" selfTime="0" lineNumber="-1" percent="2.0">
+                                  <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="getNextId" methodSignature="(Ljava/lang/String;)I" time="24327" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+                                    <node leaf="false" class="jdk.proxy3.$Proxy23" methodName="updateSequence" methodSignature="(Lorg/mybatis/jpetstore/domain/Sequence;)V" originalClass="org.mybatis.jpetstore.mapper.SequenceMapper" time="13482" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                      <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="13482" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                        <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="update" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)I" time="13482" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                          <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="13482" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                            <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="13482" count="0" selfTime="13482" lineNumber="-1" percent="0.7"/>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="jdk.proxy3.$Proxy23" methodName="getSequence" methodSignature="(Lorg/mybatis/jpetstore/domain/Sequence;)Lorg/mybatis/jpetstore/domain/Sequence;" originalClass="org.mybatis.jpetstore.mapper.SequenceMapper" time="10845" count="0" selfTime="0" lineNumber="-1" percent="0.6">
+                                      <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="10845" count="0" selfTime="0" lineNumber="-1" percent="0.6">
+                                        <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectOne" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" time="10845" count="0" selfTime="0" lineNumber="-1" percent="0.6">
+                                          <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="10845" count="0" selfTime="0" lineNumber="-1" percent="0.6">
+                                            <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="10845" count="0" selfTime="10845" lineNumber="-1" percent="0.6"/>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node leaf="false" class="java.util.ArrayList" methodName="forEach" methodSignature="(Ljava/util/function/Consumer;)V" time="13052" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                    <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="insertOrder" methodSignature="(Lorg/mybatis/jpetstore/domain/Order;Lorg/mybatis/jpetstore/domain/LineItem;)V" time="6661" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="jdk.proxy3.$Proxy24" methodName="insertLineItem" methodSignature="(Lorg/mybatis/jpetstore/domain/LineItem;)V" originalClass="org.mybatis.jpetstore.mapper.LineItemMapper" time="6661" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6661" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="insert" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)I" time="6661" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6661" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="6661" count="0" selfTime="6661" lineNumber="-1" percent="0.4"/>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="insertOrder" methodSignature="(Lorg/mybatis/jpetstore/domain/LineItem;)V" time="6391" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="jdk.proxy3.$Proxy20" methodName="updateInventoryQuantity" methodSignature="(Ljava/util/Map;)V" originalClass="org.mybatis.jpetstore.mapper.ItemMapper" time="6391" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6391" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="update" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)I" time="6391" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6391" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="6391" count="0" selfTime="6391" lineNumber="-1" percent="0.3"/>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.OrderActionBean" methodName="listOrders" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="13860" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="getOrdersByUsername" methodSignature="(Ljava/lang/String;)Ljava/util/List;" time="13860" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="getOrdersByUsername" methodSignature="(Ljava/lang/String;)Ljava/util/List;" time="13860" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                  <node leaf="false" class="jdk.proxy3.$Proxy22" methodName="getOrdersByUsername" methodSignature="(Ljava/lang/String;)Ljava/util/List;" originalClass="org.mybatis.jpetstore.mapper.OrderMapper" time="13860" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                    <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="13860" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectList" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List;" time="13860" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                        <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="13860" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                          <node leaf="true" class="org.apache.ibatis.session.defaults.DefaultSqlSession" methodName="commit" methodSignature="(Z)V" time="7896" count="0" selfTime="7896" lineNumber="-1" percent="0.4"/>
+                                          <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="org.mybatis.spring.transaction.SpringManagedTransaction" methodName="getConnection" methodSignature="()Ljava/sql/Connection;" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="org.mybatis.spring.transaction.SpringManagedTransaction" methodName="openConnection" methodSignature="()V" time="5964" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="true" class="org.springframework.jdbc.datasource.DataSourceUtils" methodName="getConnection" methodSignature="(Ljavax/sql/DataSource;)Ljava/sql/Connection;" time="5964" count="0" selfTime="5964" lineNumber="-1" percent="0.3"/>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.OrderActionBean" methodName="viewOrder" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="12906" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="getOrder" methodSignature="(I)Lorg/mybatis/jpetstore/domain/Order;" time="12906" count="0" selfTime="6403" lineNumber="-1" percent="0.7">
+                                <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="getOrder" methodSignature="(I)Lorg/mybatis/jpetstore/domain/Order;" time="6503" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                  <node leaf="false" class="java.util.ArrayList" methodName="forEach" methodSignature="(Ljava/util/function/Consumer;)V" time="6503" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="false" class="org.mybatis.jpetstore.service.OrderService" methodName="getOrder" methodSignature="(Lorg/mybatis/jpetstore/domain/LineItem;)V" time="6503" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="jdk.proxy3.$Proxy20" methodName="getInventoryQuantity" methodSignature="(Ljava/lang/String;)I" originalClass="org.mybatis.jpetstore.mapper.ItemMapper" time="6503" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6503" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectOne" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" time="6503" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6503" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="6503" count="0" selfTime="6503" lineNumber="-1" percent="0.3"/>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.OrderActionBean" methodName="newOrderForm" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="6537" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                              <node leaf="false" class="org.mybatis.jpetstore.domain.Order" methodName="initOrder" methodSignature="(Lorg/mybatis/jpetstore/domain/Account;Lorg/mybatis/jpetstore/domain/Cart;)V" time="6537" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="false" class="org.mybatis.jpetstore.domain.Order" methodName="addLineItem" methodSignature="(Lorg/mybatis/jpetstore/domain/CartItem;)V" time="6537" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                  <node leaf="false" class="org.mybatis.jpetstore.domain.LineItem" methodName="&lt;init&gt;" methodSignature="(ILorg/mybatis/jpetstore/domain/CartItem;)V" time="6537" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="true" class="org.mybatis.jpetstore.domain.LineItem" methodName="calculateTotal" methodSignature="()V" time="6537" count="0" selfTime="6537" lineNumber="-1" percent="0.3"/>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="doBindingAndValidation" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="24299" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="doBindingAndValidation" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Z)Lnet/sourceforge/stripes/action/Resolution;" time="24299" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="24299" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="24299" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="24299" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="24299" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$3" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="24299" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="bind" methodSignature="(Lnet/sourceforge/stripes/action/ActionBean;Lnet/sourceforge/stripes/action/ActionBeanContext;Z)Lnet/sourceforge/stripes/validation/ValidationErrors;" time="24299" count="0" selfTime="0" lineNumber="-1" percent="1.3">
+                            <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="convert" methodSignature="(Lnet/sourceforge/stripes/action/ActionBean;Lnet/sourceforge/stripes/controller/ParameterName;[Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;Lnet/sourceforge/stripes/validation/ValidationMetadata;Ljava/util/List;)Ljava/util/List;" time="12375" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                              <node leaf="false" class="net.sourceforge.stripes.validation.DefaultTypeConverterFactory" methodName="getTypeConverter" methodSignature="(Ljava/lang/Class;Ljava/util/Locale;)Lnet/sourceforge/stripes/validation/TypeConverter;" time="12375" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                <node leaf="false" class="net.sourceforge.stripes.validation.DefaultTypeConverterFactory" methodName="getInstance" methodSignature="(Ljava/lang/Class;Ljava/util/Locale;)Lnet/sourceforge/stripes/validation/TypeConverter;" time="12375" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                  <node leaf="false" class="net.sourceforge.stripes.controller.DefaultObjectFactory" methodName="newInstance" methodSignature="(Ljava/lang/Class;)Ljava/lang/Object;" time="6443" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="false" class="net.sourceforge.stripes.controller.DefaultObjectFactory" methodName="postProcess" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="6443" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="net.sourceforge.stripes.integration.spring.SpringInjectionPostProcessor" methodName="postProcess" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="6443" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.integration.spring.SpringHelper" methodName="injectBeans" methodSignature="(Ljava/lang/Object;Ljavax/servlet/ServletContext;)V" time="6443" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.integration.spring.SpringHelper" methodName="injectBeans" methodSignature="(Ljava/lang/Object;Lorg/springframework/context/ApplicationContext;)V" time="6443" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.integration.spring.SpringHelper" methodName="getMethods" methodSignature="(Ljava/lang/Class;)Ljava/util/Collection;" time="6443" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="true" class="net.sourceforge.stripes.util.ReflectUtil" methodName="getMethods" methodSignature="(Ljava/lang/Class;)Ljava/util/Collection;" time="6443" count="0" selfTime="6443" lineNumber="-1" percent="0.3"/>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node leaf="false" class="net.sourceforge.stripes.validation.NumberTypeConverterSupport" methodName="setLocale" methodSignature="(Ljava/util/Locale;)V" time="5932" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="true" class="java.util.Currency" methodName="getSymbol" methodSignature="(Ljava/util/Locale;)Ljava/lang/String;" time="5932" count="0" selfTime="5932" lineNumber="-1" percent="0.3"/>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="getParameters" methodSignature="(Lnet/sourceforge/stripes/action/ActionBean;)Ljava/util/SortedMap;" time="6453" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                              <node leaf="false" class="java.util.TreeMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="6453" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="false" class="net.sourceforge.stripes.controller.ParameterName" methodName="compareTo" methodSignature="(Ljava/lang/Object;)I" time="6453" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                  <node leaf="true" class="net.sourceforge.stripes.controller.ParameterName" methodName="compareTo" methodSignature="(Lnet/sourceforge/stripes/controller/ParameterName;)I" time="6453" count="0" selfTime="6453" lineNumber="-1" percent="0.3"/>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="validateRequiredFields" methodSignature="(Ljava/util/Map;Lnet/sourceforge/stripes/action/ActionBean;Lnet/sourceforge/stripes/validation/ValidationErrors;)V" time="5471" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                              <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="getFieldsPresentInfo" methodSignature="(Lnet/sourceforge/stripes/action/ActionBean;)Ljava/util/Collection;" time="5471" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="decrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="5471" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                  <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="hmacEquals" methodSignature="(Ljavax/crypto/SecretKey;[BI[BI)Z" time="5471" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="hmac" methodSignature="(Ljavax/crypto/SecretKey;[BII[BI)V" time="5471" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="true" class="javax.crypto.Mac" methodName="getInstance" methodSignature="(Ljava/lang/String;)Ljavax/crypto/Mac;" time="5471" count="0" selfTime="5471" lineNumber="-1" percent="0.3"/>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node leaf="false" class="net.sourceforge.stripes.controller.StripesFilter" methodName="flashOutbound" methodSignature="(Ljavax/servlet/http/HttpServletRequest;)V" time="13005" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+          <node leaf="false" class="net.sourceforge.stripes.controller.FlashScope" methodName="completeRequest" methodSignature="()V" time="13005" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+            <node leaf="false" class="net.sourceforge.stripes.controller.FlashRequest" methodName="replaceRequest" methodSignature="(Ljavax/servlet/http/HttpServletRequest;)Lnet/sourceforge/stripes/controller/StripesRequestWrapper;" time="13005" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+              <node leaf="false" class="net.sourceforge.stripes.controller.FlashRequest" methodName="&lt;init&gt;" methodSignature="(Ljavax/servlet/http/HttpServletRequest;)V" time="13005" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                <node leaf="true" class="java.util.Collections" methodName="list" methodSignature="(Ljava/util/Enumeration;)Ljava/util/ArrayList;" time="6594" count="0" selfTime="6594" lineNumber="-1" percent="0.3"/>
+                <node leaf="true" class="org.apache.catalina.connector.RequestFacade" methodName="getLocalName" methodSignature="()Ljava/lang/String;" time="6411" count="0" selfTime="6411" lineNumber="-1" percent="0.3"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node leaf="false" class="_jprofiler_annotation_class" methodName="HTTP: /jpetstore/actions/Account.action" methodSignature="()V" time="417590" count="0" selfTime="0" lineNumber="1" percent="22.0">
+    <node leaf="false" class="org.apache.tomcat.util.threads.TaskThread$WrappingRunnable" methodName="run" methodSignature="()V" time="417590" count="0" selfTime="6163" lineNumber="-1" percent="22.0">
+      <node leaf="false" class="net.sourceforge.stripes.controller.StripesFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="411427" count="0" selfTime="0" lineNumber="-1" percent="21.7">
+        <node leaf="false" class="org.apache.catalina.core.ApplicationFilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="411427" count="0" selfTime="0" lineNumber="-1" percent="21.7">
+          <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="service" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="411427" count="0" selfTime="5377" lineNumber="-1" percent="21.7">
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="executeResolution" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Lnet/sourceforge/stripes/action/Resolution;)V" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="executeResolution" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Lnet/sourceforge/stripes/action/Resolution;)V" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.HttpCacheInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$7" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                              <node leaf="false" class="net.sourceforge.stripes.action.ForwardResolution" methodName="execute" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="311847" count="0" selfTime="0" lineNumber="-1" percent="16.5">
+                                <node leaf="false" class="org.apache.catalina.core.ApplicationDispatcher" methodName="forward" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="311847" count="0" selfTime="297855" lineNumber="-1" percent="16.5">
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.account.SignonForm_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/account/SignonForm.jsp" time="7676" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.account.SignonForm_jsp" methodName="_jspx_meth_stripes_005flink_005f1" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/account/SignonForm.jsp" time="7676" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.LinkTag" methodName="doEndTag" methodSignature="()I" time="7676" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.HtmlTagSupport" methodName="writeOpenTag" methodSignature="(Ljavax/servlet/jsp/JspWriter;Ljava/lang/String;)V" time="7676" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.HtmlTagSupport" methodName="writeAttributes" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="7676" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="true" class="java.util.HashMap$EntrySet" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="7676" count="0" selfTime="7676" lineNumber="-1" percent="0.4"/>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.account.NewAccountForm_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/account/NewAccountForm.jsp" time="6316" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.account.NewAccountForm_jsp" methodName="_jspx_meth_stripes_005fform_005f1" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/account/NewAccountForm.jsp" time="6316" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="doStartTag" methodSignature="()I" time="6316" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getFieldErrors" methodSignature="()Ljava/util/List;" time="6316" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="loadErrors" methodSignature="()V" time="6316" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getActionBean" methodSignature="()Lnet/sourceforge/stripes/action/ActionBean;" time="6316" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getActionBean" methodSignature="()Lnet/sourceforge/stripes/action/ActionBean;" time="6316" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="true" class="javax.servlet.http.HttpServletRequestWrapper" methodName="getSession" methodSignature="(Z)Ljavax/servlet/http/HttpSession;" time="6316" count="0" selfTime="6316" lineNumber="-1" percent="0.3"/>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="invokeEventHandler" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="88376" count="0" selfTime="0" lineNumber="-1" percent="4.7">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="invokeEventHandler" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="88376" count="0" selfTime="0" lineNumber="-1" percent="4.7">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="88376" count="0" selfTime="0" lineNumber="-1" percent="4.7">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="88376" count="0" selfTime="0" lineNumber="-1" percent="4.7">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="88376" count="0" selfTime="0" lineNumber="-1" percent="4.7">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="88376" count="0" selfTime="0" lineNumber="-1" percent="4.7">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$6" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="88376" count="0" selfTime="0" lineNumber="-1" percent="4.7">
+                          <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="88376" count="0" selfTime="0" lineNumber="-1" percent="4.7">
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.AccountActionBean" methodName="newAccount" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="71553" count="0" selfTime="0" lineNumber="-1" percent="3.8">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.AccountService" methodName="insertAccount" methodSignature="(Lorg/mybatis/jpetstore/domain/Account;)V" time="71553" count="0" selfTime="45220" lineNumber="-1" percent="3.8">
+                                <node leaf="false" class="org.mybatis.jpetstore.service.AccountService" methodName="insertAccount" methodSignature="(Lorg/mybatis/jpetstore/domain/Account;)V" time="26333" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                                  <node leaf="false" class="jdk.proxy3.$Proxy17" methodName="insertProfile" methodSignature="(Lorg/mybatis/jpetstore/domain/Account;)V" originalClass="org.mybatis.jpetstore.mapper.AccountMapper" time="19687" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                    <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="19687" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="insert" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)I" time="19687" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                        <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="19687" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                          <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="19687" count="0" selfTime="19687" lineNumber="-1" percent="1.0"/>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node leaf="false" class="jdk.proxy3.$Proxy17" methodName="insertAccount" methodSignature="(Lorg/mybatis/jpetstore/domain/Account;)V" originalClass="org.mybatis.jpetstore.mapper.AccountMapper" time="6646" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                    <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6646" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="insert" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)I" time="6646" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6646" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="6646" count="0" selfTime="6646" lineNumber="-1" percent="0.4"/>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.AccountActionBean" methodName="signon" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="16823" count="0" selfTime="0" lineNumber="-1" percent="0.9">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.CatalogService" methodName="getProductListByCategory" methodSignature="(Ljava/lang/String;)Ljava/util/List;" time="10386" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                <node leaf="false" class="jdk.proxy3.$Proxy21" methodName="getProductListByCategory" methodSignature="(Ljava/lang/String;)Ljava/util/List;" originalClass="org.mybatis.jpetstore.mapper.ProductMapper" time="10386" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                  <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="10386" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                    <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectList" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List;" time="10386" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="10386" count="0" selfTime="0" lineNumber="-1" percent="0.5">
+                                        <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="10386" count="0" selfTime="10386" lineNumber="-1" percent="0.5"/>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node leaf="false" class="org.mybatis.jpetstore.service.AccountService" methodName="getAccount" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Account;" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="false" class="org.mybatis.jpetstore.service.AccountService" methodName="getAccount" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Account;" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                  <node leaf="false" class="jdk.proxy3.$Proxy17" methodName="getAccountByUsernameAndPassword" methodSignature="(Ljava/lang/String;Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Account;" originalClass="org.mybatis.jpetstore.mapper.AccountMapper" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectOne" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="org.mybatis.spring.transaction.SpringManagedTransaction" methodName="getConnection" methodSignature="()Ljava/sql/Connection;" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="org.mybatis.spring.transaction.SpringManagedTransaction" methodName="openConnection" methodSignature="()V" time="6437" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="true" class="org.springframework.jdbc.datasource.DataSourceUtils" methodName="getConnection" methodSignature="(Ljavax/sql/DataSource;)Ljava/sql/Connection;" time="6437" count="0" selfTime="6437" lineNumber="-1" percent="0.3"/>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="doBindingAndValidation" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="doBindingAndValidation" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Z)Lnet/sourceforge/stripes/action/Resolution;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$3" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="bind" methodSignature="(Lnet/sourceforge/stripes/action/ActionBean;Lnet/sourceforge/stripes/action/ActionBeanContext;Z)Lnet/sourceforge/stripes/validation/ValidationErrors;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                            <node leaf="false" class="java.util.TreeMap" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                              <node leaf="false" class="net.sourceforge.stripes.controller.ParameterName" methodName="compareTo" methodSignature="(Ljava/lang/Object;)I" time="5827" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="true" class="net.sourceforge.stripes.controller.ParameterName" methodName="compareTo" methodSignature="(Lnet/sourceforge/stripes/controller/ParameterName;)I" time="5827" count="0" selfTime="5827" lineNumber="-1" percent="0.3"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node leaf="false" class="_jprofiler_annotation_class" methodName="HTTP: /jpetstore/actions/Cart.action" methodSignature="()V" time="279788" count="0" selfTime="0" lineNumber="1" percent="14.8">
+    <node leaf="false" class="org.apache.tomcat.util.threads.TaskThread$WrappingRunnable" methodName="run" methodSignature="()V" time="279788" count="0" selfTime="0" lineNumber="-1" percent="14.8">
+      <node leaf="false" class="net.sourceforge.stripes.controller.StripesFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="279788" count="0" selfTime="0" lineNumber="-1" percent="14.8">
+        <node leaf="false" class="org.apache.catalina.core.ApplicationFilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="273332" count="0" selfTime="0" lineNumber="-1" percent="14.4">
+          <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="service" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="273332" count="0" selfTime="0" lineNumber="-1" percent="14.4">
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="executeResolution" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Lnet/sourceforge/stripes/action/Resolution;)V" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="executeResolution" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Lnet/sourceforge/stripes/action/Resolution;)V" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.HttpCacheInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$7" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                              <node leaf="false" class="net.sourceforge.stripes.action.ForwardResolution" methodName="execute" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="228383" count="0" selfTime="0" lineNumber="-1" percent="12.1">
+                                <node leaf="false" class="org.apache.catalina.core.ApplicationDispatcher" methodName="forward" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="228383" count="0" selfTime="126300" lineNumber="-1" percent="12.1">
+                                  <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.cart.Cart_jsp" methodName="_jspService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" originalName="/WEB-INF/jsp/cart/Cart.jsp" time="102083" count="0" selfTime="0" lineNumber="-1" percent="5.4">
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.cart.Cart_jsp" methodName="_jspx_meth_stripes_005fform_005f1" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/cart/Cart.jsp" time="60479" count="0" selfTime="47490" lineNumber="-1" percent="3.2">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="doEndTag" methodSignature="()I" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.InputTextTag" methodName="doEndInputTag" methodSignature="()I" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getSingleOverrideValue" methodSignature="()Ljava/lang/Object;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getOverrideValueOrValues" methodSignature="()Ljava/lang/Object;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="false" class="net.sourceforge.stripes.tag.BeanFirstPopulationStrategy" methodName="getValue" methodSignature="(Lnet/sourceforge/stripes/tag/InputTagSupport;)Ljava/lang/Object;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                <node leaf="false" class="net.sourceforge.stripes.tag.InputTagSupport" methodName="getActionBean" methodSignature="()Lnet/sourceforge/stripes/action/ActionBean;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                  <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getActionBean" methodSignature="()Lnet/sourceforge/stripes/action/ActionBean;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                    <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getActionBeanUrlBinding" methodSignature="()Ljava/lang/String;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                      <node leaf="false" class="net.sourceforge.stripes.controller.NameBasedActionResolver" methodName="getUrlBinding" methodSignature="(Ljava/lang/Class;)Ljava/lang/String;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                        <node leaf="false" class="net.sourceforge.stripes.controller.AnnotatedClassActionResolver" methodName="getUrlBinding" methodSignature="(Ljava/lang/Class;)Ljava/lang/String;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                          <node leaf="false" class="net.sourceforge.stripes.controller.UrlBinding" methodName="toString" methodSignature="()Ljava/lang/String;" time="7149" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                            <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="7149" count="0" selfTime="7149" lineNumber="-1" percent="0.4"/>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="5840" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="5840" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeSourcePageHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="5840" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getSourcePageValue" methodSignature="()Ljava/lang/String;" time="5840" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="5840" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="generateInitializationVector" methodSignature="()[B" time="5840" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                  <node leaf="true" class="java.security.SecureRandom" methodName="&lt;init&gt;" methodSignature="()V" time="5840" count="0" selfTime="5840" lineNumber="-1" percent="0.3"/>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="org.apache.jsp.WEB_002dINF.jsp.cart.Cart_jsp" methodName="_jspx_meth_stripes_005fform_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/cart/Cart.jsp" time="20090" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                      <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="doEndTag" methodSignature="()I" time="20090" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                        <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeHiddenTags" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="20090" count="0" selfTime="0" lineNumber="-1" percent="1.1">
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="writeSourcePageHiddenField" methodSignature="(Ljavax/servlet/jsp/JspWriter;)V" time="12887" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getSourcePageValue" methodSignature="()Ljava/lang/String;" time="12887" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                              <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="encrypt" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="12887" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                                <node leaf="false" class="net.sourceforge.stripes.util.CryptoUtil" methodName="getCipher" methodSignature="(Ljavax/crypto/SecretKey;I[BII)Ljavax/crypto/Cipher;" time="6847" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                                  <node leaf="true" class="javax.crypto.Cipher" methodName="getInstance" methodSignature="(Ljava/lang/String;)Ljavax/crypto/Cipher;" time="6847" count="0" selfTime="6847" lineNumber="-1" percent="0.4"/>
+                                                </node>
+                                                <node leaf="false" class="net.sourceforge.stripes.util.Base64" methodName="encodeBytes" methodSignature="([BI)Ljava/lang/String;" time="6040" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                  <node leaf="false" class="net.sourceforge.stripes.util.Base64" methodName="encodeBytes" methodSignature="([BIII)Ljava/lang/String;" time="6040" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                                    <node leaf="true" class="java.lang.String" methodName="&lt;init&gt;" methodSignature="([BIILjava/lang/String;)V" time="6040" count="0" selfTime="6040" lineNumber="-1" percent="0.3"/>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="isWizard" methodSignature="()Z" time="7203" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="net.sourceforge.stripes.tag.FormTag" methodName="getActionBean" methodSignature="()Lnet/sourceforge/stripes/action/ActionBean;" time="7203" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                                              <node leaf="true" class="javax.servlet.http.HttpServletRequestWrapper" methodName="getSession" methodSignature="(Z)Ljavax/servlet/http/HttpSession;" time="7203" count="0" selfTime="7203" lineNumber="-1" percent="0.4"/>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="true" class="org.apache.jasper.runtime.JspFactoryImpl" methodName="releasePageContext" methodSignature="(Ljavax/servlet/jsp/PageContext;)V" time="7714" count="0" selfTime="7714" lineNumber="-1" percent="0.4"/>
+                                    <node leaf="true" class="org.apache.jsp.WEB_002dINF.jsp.cart.Cart_jsp" methodName="_jspx_meth_c_005fif_005f3" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/cart/Cart.jsp" time="7107" count="0" selfTime="7107" lineNumber="-1" percent="0.4"/>
+                                    <node leaf="true" class="org.apache.jsp.WEB_002dINF.jsp.cart.Cart_jsp" methodName="_jspx_meth_c_005fif_005f0" methodSignature="(Ljavax/servlet/jsp/PageContext;)Z" originalName="/WEB-INF/jsp/cart/Cart.jsp" time="6693" count="0" selfTime="6693" lineNumber="-1" percent="0.4"/>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="invokeEventHandler" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="invokeEventHandler" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$6" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                          <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                            <node leaf="false" class="org.mybatis.jpetstore.web.actions.CartActionBean" methodName="addItemToCart" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="25994" count="0" selfTime="0" lineNumber="-1" percent="1.4">
+                              <node leaf="false" class="org.mybatis.jpetstore.service.CatalogService" methodName="getItem" methodSignature="(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Item;" time="19391" count="0" selfTime="0" lineNumber="-1" percent="1.0">
+                                <node leaf="false" class="jdk.proxy3.$Proxy20" methodName="getItem" methodSignature="(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Item;" originalClass="org.mybatis.jpetstore.mapper.ItemMapper" time="19391" count="0" selfTime="7032" lineNumber="-1" percent="1.0">
+                                  <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="12359" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                    <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectOne" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" time="12359" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="12359" count="0" selfTime="0" lineNumber="-1" percent="0.7">
+                                        <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="12359" count="0" selfTime="12359" lineNumber="-1" percent="0.7"/>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node leaf="false" class="org.mybatis.jpetstore.service.CatalogService" methodName="isItemInStock" methodSignature="(Ljava/lang/String;)Z" time="6603" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="false" class="jdk.proxy3.$Proxy20" methodName="getInventoryQuantity" methodSignature="(Ljava/lang/String;)I" originalClass="org.mybatis.jpetstore.mapper.ItemMapper" time="6603" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                  <node leaf="false" class="org.apache.ibatis.binding.MapperProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6603" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate" methodName="selectOne" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" time="6603" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                      <node leaf="false" class="org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="6603" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                        <node leaf="true" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="6603" count="0" selfTime="6603" lineNumber="-1" percent="0.3"/>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanContextFactory" methodName="getContextInstance" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lnet/sourceforge/stripes/action/ActionBeanContext;" time="6882" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DefaultObjectFactory" methodName="newInstance" methodSignature="(Ljava/lang/Class;)Ljava/lang/Object;" time="6882" count="0" selfTime="0" lineNumber="-1" percent="0.4">
+                <node leaf="true" class="java.lang.Class" methodName="newInstance" methodSignature="()Ljava/lang/Object;" time="6882" count="0" selfTime="6882" lineNumber="-1" percent="0.4"/>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="doBindingAndValidation" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="doBindingAndValidation" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;Z)Lnet/sourceforge/stripes/action/Resolution;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$3" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="bind" methodSignature="(Lnet/sourceforge/stripes/action/ActionBean;Lnet/sourceforge/stripes/action/ActionBeanContext;Z)Lnet/sourceforge/stripes/validation/ValidationErrors;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                            <node leaf="false" class="net.sourceforge.stripes.controller.DefaultActionBeanPropertyBinder" methodName="getParameters" methodSignature="(Lnet/sourceforge/stripes/action/ActionBean;)Ljava/util/SortedMap;" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                              <node leaf="false" class="net.sourceforge.stripes.controller.ParameterName" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="6457" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="true" class="java.util.regex.Matcher" methodName="find" methodSignature="()Z" time="6457" count="0" selfTime="6457" lineNumber="-1" percent="0.3"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherServlet" methodName="resolveActionBean" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+              <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper" methodName="resolveActionBean" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="wrap" methodSignature="(Lnet/sourceforge/stripes/controller/Interceptor;)Lnet/sourceforge/stripes/action/Resolution;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                  <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                    <node leaf="false" class="net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                      <node leaf="false" class="net.sourceforge.stripes.controller.ExecutionContext" methodName="proceed" methodSignature="()Lnet/sourceforge/stripes/action/Resolution;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                        <node leaf="false" class="net.sourceforge.stripes.controller.DispatcherHelper$1" methodName="intercept" methodSignature="(Lnet/sourceforge/stripes/controller/ExecutionContext;)Lnet/sourceforge/stripes/action/Resolution;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                          <node leaf="false" class="net.sourceforge.stripes.controller.AnnotatedClassActionResolver" methodName="getActionBean" methodSignature="(Lnet/sourceforge/stripes/action/ActionBeanContext;)Lnet/sourceforge/stripes/action/ActionBean;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                            <node leaf="false" class="net.sourceforge.stripes.controller.NameBasedActionResolver" methodName="getActionBean" methodSignature="(Lnet/sourceforge/stripes/action/ActionBeanContext;Ljava/lang/String;)Lnet/sourceforge/stripes/action/ActionBean;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                              <node leaf="false" class="net.sourceforge.stripes.controller.AnnotatedClassActionResolver" methodName="getActionBean" methodSignature="(Lnet/sourceforge/stripes/action/ActionBeanContext;Ljava/lang/String;)Lnet/sourceforge/stripes/action/ActionBean;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                <node leaf="false" class="net.sourceforge.stripes.controller.AnnotatedClassActionResolver" methodName="getActionBeanType" methodSignature="(Ljava/lang/String;)Ljava/lang/Class;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                  <node leaf="false" class="net.sourceforge.stripes.controller.UrlBindingFactory" methodName="getBindingPrototype" methodSignature="(Ljava/lang/String;)Lnet/sourceforge/stripes/controller/UrlBinding;" time="5616" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                                    <node leaf="true" class="java.util.HashMap" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="5616" count="0" selfTime="5616" lineNumber="-1" percent="0.3"/>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node leaf="false" class="net.sourceforge.stripes.controller.StripesFilter" methodName="flashInbound" methodSignature="(Ljavax/servlet/http/HttpServletRequest;)V" time="6456" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+          <node leaf="false" class="net.sourceforge.stripes.controller.FlashScope" methodName="getPrevious" methodSignature="(Ljavax/servlet/http/HttpServletRequest;)Lnet/sourceforge/stripes/controller/FlashScope;" time="6456" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+            <node leaf="false" class="net.sourceforge.stripes.controller.StripesRequestWrapper" methodName="getParameter" methodSignature="(Ljava/lang/String;)Ljava/lang/String;" time="6456" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+              <node leaf="false" class="net.sourceforge.stripes.controller.StripesRequestWrapper" methodName="getParameterValues" methodSignature="(Ljava/lang/String;)[Ljava/lang/String;" time="6456" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                <node leaf="false" class="net.sourceforge.stripes.controller.MergedParameterMap" methodName="get" methodSignature="(Ljava/lang/Object;)[Ljava/lang/String;" time="6456" count="0" selfTime="0" lineNumber="-1" percent="0.3">
+                  <node leaf="true" class="net.sourceforge.stripes.controller.MergedParameterMap" methodName="mergeParameters" methodSignature="([Ljava/lang/String;[Ljava/lang/String;)[Ljava/lang/String;" time="6456" count="0" selfTime="6456" lineNumber="-1" percent="0.3"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node leaf="true" time="393373" count="0" selfTime="393373" lineNumber="-1" percent="0.0" filtered="true"/>
+</tree>

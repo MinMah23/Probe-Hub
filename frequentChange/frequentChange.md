@@ -18,21 +18,13 @@ The output models two node types:
 
 ## Requirements
 
-| Package       | Minimum version | Install command                              |
-|---------------|-----------------|----------------------------------------------|
-| Python        | ≥ 3.8           | –                                            |
-| javalang      | any             | `pip install javalang`                       |
-| Git           | any recent      | Must be available in `PATH`                  |
+| Package  | Minimum version | Install command             |
+| -------- | --------------- | --------------------------- |
+| Python   | ≥ 3.8           | –                           |
+| javalang | any             | `pip install javalang`      |
+| Git      | any recent      | Must be available in `PATH` |
 
-That’s it! No Maven, Gradle, or JDK needed.
-
-### Optional (recommended)
-
-```bash
-pip install javalang tqdm   # tqdm gives a nice progress bar if you add it
-```
-
-##  HOw to use it
+## HOw to use it
 
 ```
 ./frequesntChange.py \
@@ -43,18 +35,18 @@ pip install javalang tqdm   # tqdm gives a nice progress bar if you add it
 
 ### Command-line Arguments
 
-| Flag         | Required | Description                                                                                   | Default |
-|--------------|----------|------------------------------------------------------------------------------------------------|---------|
-| `--src`      | Yes      | Root directory that contains your `*.java` source files (usually `src/main/java`)             | –       |
-| `--out`      | Yes      | Path of the JSON file that will be written                                                    | –       |
+| Flag         | Required | Description                                                                                  | Default |
+| ------------ | -------- | -------------------------------------------------------------------------------------------- | ------- |
+| `--src`      | Yes      | Root directory that contains your `*.java` source files (usually `src/main/java`)            | –       |
+| `--out`      | Yes      | Path of the JSON file that will be written                                                   | –       |
 | `--git-root` | No       | Directory that is the root of the Git repository (where `.git` lives). Useful for monorepos. | `.`     |
-
 
 ### Output Explanation
 
 - Method nodes identify the exact method (FQN includes parameter types).
 - Each method gets exactly one Changespot node that aggregates:
-    - numOfChanges – total Git revisions that touched the method body
-    - numOfFixes   – revisions whose commit message contains fix-related keywords
+
+  - numOfChanges – total Git revisions that touched the method body
+  - numOfFixes – revisions whose commit message contains fix-related keywords
 
 - The changespot_id contains a timestamp so repeated runs do not collide when you import many runs into the same graph database.

@@ -1,1 +1,1 @@
- pmd check -d . -R /Users/minamahdipour/MASc/Implementation/complexity\ analysis/cyclomatic-ruleset.xml
+ pmd check -d . -R ./cyclomatic-ruleset.xml

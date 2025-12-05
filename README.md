@@ -11,3 +11,13 @@ These probes extract architectural and quality information from Java projects an
 
    ```bash
    docker run -d -p 8080:8080 --name sst acedesign/sst/sst:latest
+   ```
+
+### List of Probes
+
+- Complexity Analyzer
+- Dependency Analyzer
+- Dynamic Call Stack Analyzer
+- Frequesnt Change Analyzer
+- Performance Hotspot Analyzer
+- Test Depedency Analyzer
